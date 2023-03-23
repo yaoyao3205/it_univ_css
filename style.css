@@ -1,11 +1,55 @@
-div {
+/* h1, p {
+    background-color: pink;
+} */
+
+/* .title.big {
+    background-color: pink;
+} */
+
+/* .big {
+    font-size: 60px;
+} */
+
+/* #title {
+    background-color: pink;
+} */
+
+/* article * {
     color: red;
-    font-size: 5rem;
-    background-color: rgba(255, 255, 0, 0.5);
-    width: calc(100% / 3);
-    /* margin-top: 100px;
-    margin-left: 100px;
-    margin-bottom: 50px;
-    margin-right: 0; */
-    margin: 100px 0 50px 100px;
+} */
+
+/* a[href$=".jp"] {
+    color: red;
+} */
+
+/* article p:nth-of-type(2) {
+    color: red;
+} */
+
+/* article p:not(:first-of-type) {
+    color: red;
+} */
+
+/* p:hover {
+    background-color: pink;
+} */
+
+/* h1::after {
+    content: "!!!!";
+} */
+
+/* p::first-letter {
+    font-size: 50px;
+} */
+
+/* main > h1 {
+    color: red;
+} */
+
+/* article p + p {
+    margin-top: 50px;
+} */
+
+article h1 ~ p {
+    color: red;
 }
